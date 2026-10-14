@@ -74,6 +74,13 @@
                 "key": "content-length",
                 "rawValueText": "97"
               }
+            },
+            {
+              "appendAction": "OVERWRITE_IF_EXISTS_OR_ADD",
+              "header": {
+                "key": "accept-encoding",
+                "rawValueText": "gzip"
+              }
             }
           ]
         }

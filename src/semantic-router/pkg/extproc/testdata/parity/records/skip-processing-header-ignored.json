@@ -78,6 +78,10 @@
             {
               "name": "content-length",
               "value": "97"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -202,16 +206,16 @@
         "value": "parity-skip-processing-header-ignored"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-selected-model",
         "value": "general-small"
       },
       {
         "name": "content-length",
         "value": "97"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-small-instruct\",\"messages\":[{\"role\":\"user\",\"content\":\"urgent: status update\"}]}"

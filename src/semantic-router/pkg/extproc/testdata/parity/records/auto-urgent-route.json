@@ -74,6 +74,10 @@
             {
               "name": "content-length",
               "value": "169"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -194,16 +198,16 @@
         "value": "parity-auto-urgent-route"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-selected-model",
         "value": "general-small"
       },
       {
         "name": "content-length",
         "value": "169"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-small-instruct\",\"messages\":[{\"role\":\"system\",\"content\":\"Be brief.\"},{\"role\":\"user\",\"content\":\"This is urgent, summarize the plan.\"}],\"temperature\":0.2}"

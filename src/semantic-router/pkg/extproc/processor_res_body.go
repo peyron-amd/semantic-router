@@ -11,6 +11,9 @@ import (
 
 // handleResponseBody processes the response body.
 func (r *OpenAIRouter) handleResponseBody(v *ext_proc.ProcessingRequest_ResponseBody, ctx *RequestContext) (*ext_proc.ProcessingResponse, error) {
+	if upstreamGzipBodyPending(v, ctx) {
+		return r.handleUpstreamGzipBody(v, ctx)
+	}
 	if skipResponse := r.handleSkipProcessingResponseBody(v.ResponseBody.Body, ctx); skipResponse != nil {
 		return skipResponse, nil
 	}

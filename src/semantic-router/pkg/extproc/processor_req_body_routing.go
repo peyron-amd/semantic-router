@@ -394,6 +394,7 @@ func (r *OpenAIRouter) finalizeProviderDispatchResponse(
 		common.HeaderMutation = &ext_proc.HeaderMutation{}
 	}
 	appendContentLengthHeader(&common.HeaderMutation.SetHeaders, len(body))
+	requestUpstreamGzip(&common.HeaderMutation.SetHeaders, ctx)
 	if err := commitAgenticSessionDecision(ctx); err != nil {
 		return nil, err
 	}

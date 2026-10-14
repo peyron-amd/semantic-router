@@ -78,6 +78,10 @@
             {
               "name": "content-length",
               "value": "146"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -214,10 +218,6 @@
         "value": "parity-auto-essay-anthropic-backend"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "anthropic-version",
         "value": "2023-06-01"
       },
@@ -228,6 +228,10 @@
       {
         "name": "content-length",
         "value": "146"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"claude-compatible-1\",\"messages\":[{\"role\":\"user\",\"content\":[{\"text\":\"Write a short poem about rivers.\",\"type\":\"text\"}]}],\"max_tokens\":64}"

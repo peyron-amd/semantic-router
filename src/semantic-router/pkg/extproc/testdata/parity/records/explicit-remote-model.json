@@ -86,6 +86,10 @@
             {
               "name": "content-length",
               "value": "97"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -194,10 +198,6 @@
         "value": "parity-explicit-remote-model"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-tenant",
         "value": "parity-corpus"
       },
@@ -212,6 +212,10 @@
       {
         "name": "content-length",
         "value": "97"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-large-instruct\",\"messages\":[{\"role\":\"user\",\"content\":\"Explain HTTP caching.\"}]}"

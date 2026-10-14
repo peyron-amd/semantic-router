@@ -74,6 +74,10 @@
             {
               "name": "content-length",
               "value": "88"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -192,16 +196,16 @@
         "value": "parity-upstream-429"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-selected-model",
         "value": "general-small"
       },
       {
         "name": "content-length",
         "value": "88"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-small-instruct\",\"messages\":[{\"role\":\"user\",\"content\":\"Hello again.\"}]}"

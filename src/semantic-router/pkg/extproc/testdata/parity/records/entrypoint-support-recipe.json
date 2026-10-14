@@ -74,6 +74,10 @@
             {
               "name": "content-length",
               "value": "112"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -194,16 +198,16 @@
         "value": "parity-entrypoint-support-recipe"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-selected-model",
         "value": "general-small"
       },
       {
         "name": "content-length",
         "value": "112"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-small-instruct\",\"messages\":[{\"role\":\"user\",\"content\":\"I need a refund for my last invoice.\"}]}"
