@@ -86,6 +86,10 @@
             {
               "name": "content-length",
               "value": "169"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -200,10 +204,6 @@
         "value": "parity-upstream-503"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-tenant",
         "value": "parity-corpus"
       },
@@ -222,6 +222,10 @@
       {
         "name": "content-length",
         "value": "169"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-large-instruct\",\"messages\":[{\"role\":\"system\",\"content\":\"You are a careful senior engineer.\"},{\"role\":\"user\",\"content\":\"Compile this golang program.\"}]}"

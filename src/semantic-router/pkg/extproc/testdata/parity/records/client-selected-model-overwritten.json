@@ -78,6 +78,10 @@
             {
               "name": "content-length",
               "value": "103"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -198,16 +202,16 @@
         "value": "parity-client-selected-model-overwritten"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-selected-model",
         "value": "general-small"
       },
       {
         "name": "content-length",
         "value": "103"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-small-instruct\",\"messages\":[{\"role\":\"user\",\"content\":\"urgent: restart the service\"}]}"

@@ -86,6 +86,10 @@
             {
               "name": "content-length",
               "value": "186"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -206,10 +210,6 @@
         "value": "parity-auto-code-route"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-tenant",
         "value": "parity-corpus"
       },
@@ -228,6 +228,10 @@
       {
         "name": "content-length",
         "value": "186"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-large-instruct\",\"messages\":[{\"role\":\"system\",\"content\":\"You are a careful senior engineer.\"},{\"role\":\"user\",\"content\":\"Write a python function that reverses a list.\"}]}"

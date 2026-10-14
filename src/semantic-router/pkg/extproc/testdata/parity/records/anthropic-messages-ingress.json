@@ -90,6 +90,10 @@
             {
               "name": "content-length",
               "value": "203"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip"
             }
           ],
           "remove": [
@@ -230,10 +234,6 @@
         "value": "parity-anthropic-messages-ingress"
       },
       {
-        "name": "accept-encoding",
-        "value": ""
-      },
-      {
         "name": "x-tenant",
         "value": "parity-corpus"
       },
@@ -252,6 +252,10 @@
       {
         "name": "content-length",
         "value": "203"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip"
       }
     ],
     "body": "{\"model\":\"general-large-instruct\",\"messages\":[{\"role\":\"system\",\"content\":\"You are a careful senior engineer.\"},{\"role\":\"user\",\"content\":\"Write a python script to parse CSV.\"}],\"max_completion_tokens\":64}"

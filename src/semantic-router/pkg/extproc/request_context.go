@@ -137,6 +137,8 @@ type RequestContext struct {
 	// Streaming detection
 	ExpectStreamingResponse bool // set from request Accept header or stream parameter
 	IsStreamingResponse     bool // set from response Content-Type
+	UpstreamGzipRequested   bool // provider dispatch asked for a gzip reply
+	UpstreamGzipReply       bool // the current reply is gzip and is decoded before it is read
 
 	// Semi-streaming body handler (non-nil when Envoy sends STREAMED body chunks)
 	StreamedBody          *StreamedBodyHandler
